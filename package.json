@@ -5,6 +5,11 @@
     "dev": "vite",
     "test": "vitest run"
   },
+  "vitest": {
+    "globals": true,
+    "environment": "jsdom",
+    "setupFiles": "./src/setupTests.js"
+  },
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
